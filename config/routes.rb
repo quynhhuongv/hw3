@@ -6,5 +6,5 @@
 
 Rails.application.routes.draw do
   resources "places"
-  resources "post"
+  resources "posts"
 end
