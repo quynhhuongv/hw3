@@ -1,7 +1,7 @@
 <h1> All The Wonderful Places I've Been</h1>
 
    <% for place in @places %>
-      <a href="/places/<%= place["id"] %>"><%= place["name"] %></a>
+      <ul><a href="/places/<%= place["id"] %>"><%= place["name"] %></a></ul>
    <% end %>
 
 <p><a href="/places/new">New Place</a></p>
